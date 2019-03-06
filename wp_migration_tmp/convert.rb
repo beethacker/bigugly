@@ -24,6 +24,7 @@ categories = []
 date = nil
 contentLines = []
 readingBody = false
+stopReadingBody = false
 contentOpenTag =  "<content:encoded><![CDATA["
 
 IO.readlines(ARGV[0]).each do |line|
@@ -44,21 +45,32 @@ IO.readlines(ARGV[0]).each do |line|
     categories << extract(line, "![CDATA[", "]]")
   end
 
+  if line.include? "wp-content/uploads"
+    line.gsub!(/http:\/\/cookwithchef.com\/wp-content\/uploads\/[0-9]*\/[0-9]*/, "/img")
+  end
+ 
   if line.include? contentOpenTag
     offset = line.index(contentOpenTag) + contentOpenTag.size
     readingBody = true
-    contentLines << line[offset..line.size]
+    line = line[offset..line.size]
   elsif line.include? "</content:encoded>"
     endIndex = line.index("]]") - 1
-    contentLines << line[0..endIndex]
-    readingBody = false
-  elsif readingBody
+    line = line[0..endIndex]
+    stopReadingBody = true #NOTE, we stop reading body at end of this loop, we still need to read THIS LINE THOUGH
+  end
+
+  if readingBody
     contentLines << line
+  end
+
+  if stopReadingBody
+    stopReadingBody = false
+    readingBody = false
   end
 end
 
 puts "---"
-puts "title: \"#{title}"
+puts "title: \"#{title}\""
 puts "date: #{date}"
 puts "tags: #{tags}"
 puts "categories: #{categories}"

@@ -1,0 +1,2 @@
+#!/usr/bin/fish
+hugo server -D -d dev &
