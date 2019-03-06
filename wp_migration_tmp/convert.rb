@@ -58,7 +58,10 @@ IO.readlines(ARGV[0]).each do |line|
     offset = line.index(contentOpenTag) + contentOpenTag.size
     readingBody = true
     line = line[offset..line.size]
-  elsif line.include? "</content:encoded>"
+  end
+
+  #NOTE this might actually be the same line, if all the content fit on a single line....
+  if line.include? "</content:encoded>"
     endIndex = line.index("]]") - 1
     line = line[0..endIndex]
     stopReadingBody = true #NOTE, we stop reading body at end of this loop, we still need to read THIS LINE THOUGH
