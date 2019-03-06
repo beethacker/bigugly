@@ -45,10 +45,15 @@ IO.readlines(ARGV[0]).each do |line|
     categories << extract(line, "![CDATA[", "]]")
   end
 
-  if line.include? "wp-content/uploads"
-    line.gsub!(/http:\/\/cookwithchef.com\/wp-content\/uploads\/[0-9]*\/[0-9]*/, "/img")
+  if line.include? "http://cookwithchef.com/wp-content/uploads"
+      regex = /\"http:\/\/cookwithchef.com\/wp-content\/uploads\/[0-9]*\/[0-9]*\/([^> ]*)\"/
+      matching = regex.match(line)
+      until matching.nil?
+        line.gsub!(matching[0], "\"{{< resource url=\"img/" + matching[1] + "\">}}\"")
+        matching = regex.match(line)
+      end
   end
- 
+
   if line.include? contentOpenTag
     offset = line.index(contentOpenTag) + contentOpenTag.size
     readingBody = true
