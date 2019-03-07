@@ -1,4 +1,4 @@
-baseURL = "bears.cookwithchef.com/"
+baseURL = "http://bears.cookwithchef.com/"
 languageCode = "en-us"
 title = "The Big Ugly House Blog"
 theme = "redlounge"

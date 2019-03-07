@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on The Big Ugly House Blog</title>
-    <link>bears.cookwithchef.com/categories/</link>
+    <link>http://bears.cookwithchef.com/categories/</link>
     <description>Recent content in Categories on The Big Ugly House Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jun 2015 23:46:53 +0000</lastBuildDate>
     
-	<atom:link href="bears.cookwithchef.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bears.cookwithchef.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Art</title>
-      <link>bears.cookwithchef.com/categories/art/</link>
+      <link>http://bears.cookwithchef.com/categories/art/</link>
       <pubDate>Sun, 28 Jun 2015 23:46:53 +0000</pubDate>
       
-      <guid>bears.cookwithchef.com/categories/art/</guid>
+      <guid>http://bears.cookwithchef.com/categories/art/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bears</title>
-      <link>bears.cookwithchef.com/categories/bears/</link>
+      <link>http://bears.cookwithchef.com/categories/bears/</link>
       <pubDate>Sun, 29 May 2016 00:01:06 +0000</pubDate>
       
-      <guid>bears.cookwithchef.com/categories/bears/</guid>
+      <guid>http://bears.cookwithchef.com/categories/bears/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life Optimization</title>
-      <link>bears.cookwithchef.com/categories/life-optimization/</link>
+      <link>http://bears.cookwithchef.com/categories/life-optimization/</link>
       <pubDate>Tue, 06 Sep 2016 22:25:28 +0000</pubDate>
       
-      <guid>bears.cookwithchef.com/categories/life-optimization/</guid>
+      <guid>http://bears.cookwithchef.com/categories/life-optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uncategorized</title>
-      <link>bears.cookwithchef.com/categories/uncategorized/</link>
+      <link>http://bears.cookwithchef.com/categories/uncategorized/</link>
       <pubDate>Sun, 23 Oct 2016 00:35:30 +0000</pubDate>
       
-      <guid>bears.cookwithchef.com/categories/uncategorized/</guid>
+      <guid>http://bears.cookwithchef.com/categories/uncategorized/</guid>
       <description></description>
     </item>
     
