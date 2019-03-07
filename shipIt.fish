@@ -1,8 +1,5 @@
 #!/usr/bin/fish
-hugo -d deploy
-pushd .
-cd deploy
+hugo -d docs
 git add .
-git commit -m "Updating Big Ugly Blog"
+git commit 
 git push
-popd
