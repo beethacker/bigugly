@@ -1,4 +1,4 @@
-baseURL = "beethacker.github.io/bigugly"
+baseURL = "https://beethacker.github.io/bigugly"
 languageCode = "en-us"
 title = "The Big Ugly House Blog"
 theme = "redlounge"
