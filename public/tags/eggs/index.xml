@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eggs on The Big Ugly House Blog</title>
+    <link>beethacker.github.io/bigugly/tags/eggs/</link>
+    <description>Recent content in Eggs on The Big Ugly House Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2015 23:46:53 +0000</lastBuildDate>
+    
+	<atom:link href="beethacker.github.io/bigugly/tags/eggs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An exciting oval shape</title>
+      <link>beethacker.github.io/bigugly/posts/an-exciting-oval-shape/</link>
+      <pubDate>Sun, 28 Jun 2015 23:46:53 +0000</pubDate>
+      
+      <guid>beethacker.github.io/bigugly/posts/an-exciting-oval-shape/</guid>
+      <description>Egg person? Egg Person??!!  Are you trying to give me nightmares?   </description>
+    </item>
+    
+  </channel>
+</rss>
