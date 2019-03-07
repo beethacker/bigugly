@@ -1,3 +1,48 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/story"]
+	path = themes/story
+	url = https://github.com/xaprb/story.git
+[submodule "themes/rocktopus"]
+	path = themes/rocktopus
+	url = https://github.com/esell/rocktopus.git
+[submodule "themes/silhouette-hugo"]
+	path = themes/silhouette-hugo
+	url = https://github.com/mattbutton/silhouette-hugo.git
+[submodule "themes/rusty"]
+	path = themes/rusty
+	url = https://github.com/cecyc/hugo-theme-rusty.git
+[submodule "themes/pacman"]
+	path = themes/pacman
+	url = https://github.com/coderzh/hugo-pacman-theme.git
+[submodule "themes/hermit"]
+	path = themes/hermit
+	url = https://github.com/Track3/hermit.git
+[submodule "themes/tikva"]
+	path = themes/tikva
+	url = https://github.com/geschke/hugo-tikva.git
+[submodule "themes/hamburg"]
+	path = themes/hamburg
+	url = https://github.com/hauke96/hugo-theme-hamburg.git
+[submodule "themes/Niello"]
+	path = themes/Niello
+	url = https://github.com/guangmean/Niello.git
+[submodule "themes/hugobootstrap"]
+	path = themes/hugobootstrap
+	url = https://github.com/Xzya/hugo-bootstrap.git
+[submodule "themes/hugodusk"]
+	path = themes/hugodusk
+	url = https://github.com/gyorb/hugo-dusk
+[submodule "themes/blackburn"]
+	path = themes/blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
+[submodule "themes/darksimplicity"]
+	path = themes/darksimplicity
+	url = https://github.com/kritoke/darksimplicity.git
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/spf13/hyde.git
+[submodule "themes/redlounge"]
+	path = themes/redlounge
+	url = https://github.com/tmaiaroto/hugo-redlounge.git

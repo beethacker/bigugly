@@ -1,4 +1,19 @@
 baseURL = "beethacker.github.io/bigugly"
 languageCode = "en-us"
 title = "The Big Ugly House Blog"
-theme = "ananke"
+theme = "redlounge"
+
+
+[Params]
+  sidebartitle = "The Big Ugly House Blog"
+  sidebartagline = "The bear is why you can't keep clean."
+  sidebarphoto = "/bigugly/img/Gros-morne-front.jpg"
+
+
+[[menu.main]]
+  name = "Gros Morne Justice"
+  url = "/categories/bears"
+
+[[menu.main]]
+  name = "Art"
+  url = "/categories/art"
