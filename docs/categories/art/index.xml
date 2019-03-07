@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Art on The Big Ugly House Blog</title>
-    <link>https://beethacker.github.io/bigugly/categories/art/</link>
+    <link>https://beethacker.github.io/bigugly_hugo/categories/art/</link>
     <description>Recent content in Art on The Big Ugly House Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jun 2015 23:46:53 +0000</lastBuildDate>
     
-	<atom:link href="https://beethacker.github.io/bigugly/categories/art/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://beethacker.github.io/bigugly_hugo/categories/art/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An exciting oval shape</title>
-      <link>https://beethacker.github.io/bigugly/posts/an-exciting-oval-shape/</link>
+      <link>https://beethacker.github.io/bigugly_hugo/posts/an-exciting-oval-shape/</link>
       <pubDate>Sun, 28 Jun 2015 23:46:53 +0000</pubDate>
       
-      <guid>https://beethacker.github.io/bigugly/posts/an-exciting-oval-shape/</guid>
+      <guid>https://beethacker.github.io/bigugly_hugo/posts/an-exciting-oval-shape/</guid>
       <description>Egg person? Egg Person??!!  Are you trying to give me nightmares?   </description>
     </item>
     
     <item>
       <title>Hanz the pigeon</title>
-      <link>https://beethacker.github.io/bigugly/posts/hanz-the-pigeon/</link>
+      <link>https://beethacker.github.io/bigugly_hugo/posts/hanz-the-pigeon/</link>
       <pubDate>Thu, 25 Jun 2015 15:52:47 +0000</pubDate>
       
-      <guid>https://beethacker.github.io/bigugly/posts/hanz-the-pigeon/</guid>
+      <guid>https://beethacker.github.io/bigugly_hugo/posts/hanz-the-pigeon/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Clarence the chicken</title>
-      <link>https://beethacker.github.io/bigugly/posts/clarence-the-chicken/</link>
+      <link>https://beethacker.github.io/bigugly_hugo/posts/clarence-the-chicken/</link>
       <pubDate>Fri, 12 Jun 2015 16:52:48 +0000</pubDate>
       
-      <guid>https://beethacker.github.io/bigugly/posts/clarence-the-chicken/</guid>
+      <guid>https://beethacker.github.io/bigugly_hugo/posts/clarence-the-chicken/</guid>
       <description> </description>
     </item>
     
