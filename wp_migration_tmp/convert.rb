@@ -26,6 +26,7 @@ contentLines = []
 readingBody = false
 stopReadingBody = false
 contentOpenTag =  "<content:encoded><![CDATA["
+listCount = 0
 
 IO.readlines(ARGV[0]).each do |line|
 
@@ -68,6 +69,15 @@ IO.readlines(ARGV[0]).each do |line|
   end
 
   if readingBody
+    if line.include? "<ul>" or line.include? "<ol>"
+      listCount += 1
+    end
+    if line.include? "</ul>" or line.include? "</ol>"
+      listCount -= 1
+    end
+    if listCount == 0
+      line = "<p>#{line}</p>"
+    end
     contentLines << line
   end
 
